@@ -1,0 +1,18 @@
+kind: Project
+apiVersion: project.openshift.io/v1
+metadata:
+  name: group-sync-operator
+  labels:
+    kubernetes.io/metadata.name: group-sync-operator
+  annotations:
+    openshift.io/description: ''
+    openshift.io/display-name: ''
+    openshift.io/requester: 'kube:admin'
+    openshift.io/sa.scc.mcs: 's0:c26,c5'
+    openshift.io/sa.scc.supplemental-groups: 1000660000/10000
+    openshift.io/sa.scc.uid-range: 1000660000/10000
+spec:
+  finalizers:
+    - kubernetes
+status:
+  phase: Active
