@@ -4,7 +4,7 @@ metadata:
   annotations:
   namespace: group-sync-operator
   labels:
-    operators.coreos.com/group-sync-operator.group-sync-operator: ''
+    operators.coreos.com/group-sync-operator.group-sync-operator: 'gso'
 spec:
   channel: alpha
   installPlanApproval: Automatic
