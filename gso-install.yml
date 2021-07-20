@@ -1,0 +1,21 @@
+metadata:
+  generateName: install-
+  annotations:
+  name: install-gv94n
+  generation: 1
+  namespace: group-sync-operator
+  ownerReferences:
+    - apiVersion: operators.coreos.com/v1alpha1
+      blockOwnerDeletion: false
+      controller: false
+      kind: Subscription
+      name: group-sync-operator
+      uid: 425ed3ca-f88b-467f-a851-9f44bdabc760
+  labels:
+    operators.coreos.com/group-sync-operator.group-sync-operator: ''
+spec:
+  approval: Automatic
+  approved: true
+  clusterServiceVersionNames:
+    - group-sync-operator.v0.0.12
+  generation: 1
